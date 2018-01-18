@@ -6,8 +6,14 @@ Based on C `LibYAML` library (`http://pyyaml.org/wiki/LibYAML`) by Kirill Simono
 
 It's fast and compatible with iOS.
 
+#How to install
+
+pod 'YAML-Framework'
+
 ## Example usage
 
+#import <Yaml/Yaml.h>
+#import "YAMLSerialization.h"
 ```objc
 NSInputStream *stream = [[NSInputStream alloc] initWithFileAtPath: @"yaml/items.yaml"];
 // or [[NSInputStream alloc] initWithURL: ...]
